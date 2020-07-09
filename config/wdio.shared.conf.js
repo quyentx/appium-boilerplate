@@ -34,7 +34,7 @@ exports.config = {
                 // For arguments see
                 // https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-appium-service
                 },
-                command: 'appium',
+                command: 'appium  --address 127.0.0.1'
             },
         ],
     ],
